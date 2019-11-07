@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/style/stylepartie2.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Citizen Kane</h1>
+    <p>Kane, favori pour le poste de gouverneur, tient son discours de campagne. Au début des années 1940 , Charles
+        Foster Kane meurt dans son manoir de Xanadu,
+        un vaste domaine palatial de Floride, en prononçant dans un dernier souffle <span class="italic">rosebud</span>
+    </p>
+    <h2 id="centerTitle">Citizen Kane</h2>
+    <p><strong>CHANGER COULEURS MOTS:</strong><span id="colorText">Kane</span> , favori pour le poste de gouverneur,
+        tient son discours de campagne. Au début
+        des années 1940 , <span id="colorText">Charles Foster Kane</span>
+        meurt dans son manoir de <span id="colorText2">Xanadu</span> ,
+        un vaste domaine palatial de <span id="colorText2">Floride</span>, en prononçant dans un dernier souffle <span
+            id=italic>rosebud</span>
+    </p>
+
+    <p class="policeType"><strong>POLICE ARIAL:</strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Voluptatibus suscipit natus,
+        obcaecati enim officia alias id laudantium tenetur error? Minus, eaque fugiat voluptatum harum nulla suscipit
+        enim nihil.
+        Quod, possimus?
+    </p>
+
+    <p id=backgroundColor><strong>COULEUR DE FOND BLEU :</strong>Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Omnis commodi ducimus rerum culpa, hic doloremque molestias dolores repellendus aspernatur neque incidunt
+        fuga provident odio possimus non minus ratione explicabo debitis.
+    </p>
+
+    <p><strong>IMAGE EN FOND DE TEXTE:</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sapiente
+        eveniet rerum mollitia nihil iure, quos
+        laudantium aperiam accusamus dignissimos est numquam totam cumque maiores,
+        ullam, cupiditate nesciunt. Provident, magni.
+    </p>
+    <p id="margeExt"><strong>MARGE EXTERNE 10PX : </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quisquam distinctio nisi labore impedit provident
+        incidunt error ipsum quae saepe? Excepturi quae illum eligendi laborum quis recusandae labore ullam temporibus
+        ducimus?
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui suscipit, accusamus eum magni expedita eius ab,
+            possimus nesciunt labore asperiores deleniti iure excepturi maiores beatae ipsam mollitia voluptatem dicta
+            voluptas!
+        </p>
+    </p>
+
+    <div id="backgroundColor" id="margeInt">
+        <p><strong>Div AVEC MARGE INTERNE 10 PX:</strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Suscipit inventore voluptate iure. Corporis
+            delectus temporibus praesentium,
+            eius beatae nulla vitae nobis consequuntur! Accusamus ad aut quae, obcaecati autem ratione consectetur?
+        </p>
+    </div>
+
+    <p>
+        <div>
+            <div id="rectOne">
+                <div id="rectA1"></div>
+                <div id="rectA2"></div>
+            </div>
+            <div id="rectTwo">
+                <div id="rectB1">
+                    <p>EXERCICE 8</p>
+                </div>
+                <div id="rectB2">
+                    <div id="rectC1">
+                        <div id="rectC1a"></div>
+                        <div id="rectC1b"></div>
+                    </div>
+                    <div id="rectC2">
+                        <div id="rectC2a"></div>
+                        <div id="rectC2b"></div>
+                        <div id="rectC2c"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="rectThree">
+                <div id="rectBlack"></div>
+            </div>
+        </div>
+    </p>
+
+    <form action="sur quel type de document" method="post">
+        <div>
+            <fieldset class="fondBlue">
+                <legend class="fondBlue">Votre identité</legend>
+                <ol>
+                    <li> <label for="name">Nom :</label>
+                        <input placeholder="votre nom" type="text" id="name" name="user_name"></li>
+                    <li> <label for="name">Prénom :</label>
+                        <input placeholder="votre prénom" type="text" id="name" name="user_name"></li>
+                    <li> <label for="mail">Adresse e-mail :</label>
+                        <input placeholder="votre adresse email" type="email" id="email" name="user_mail"></li>
+                </ol>
+            </fieldset>
+        </div>
+        <div>
+            <fieldset class="fondPurple">
+                <legend class="fondPurple">Adresse de livraison</legend>
+                <ol>
+                    <li> <label for="adresse">Adresse :</label>
+                        <textarea id="adresse" name="adresse"></textarea></li>
+                    <li> <label for="codepostal">Code postal :</label>
+                        <input placeholder="votre code postal" id="codepostal" name="codepostal"></li>
+                    <li> <label for="ville">Ville :</label>
+                        <input placeholder="votre ville" id="ville" name="ville"></li>
+                </ol>
+            </fieldset>
+            <fieldset class="fondPink">
+                <legend class="fondPink">Informations de reglements :</legend>
+                <ol>
+                    <li> <label for="paiement">Type de carte bancaire :</label>
+                        <ol>
+                            <li>
+                                <input id=visa name=type_de_carte type=radio>
+                                <label for=visa>VISA</label>
+                            </li>
+
+                            <li>
+                                <input id=mastercard name=type_de_carte type=radio>
+                                <label for=mastercard>Mastercard</label>
+                            </li>
+                        </ol>
+                    </li>
+
+                    <li> <label for="numero_de_carte">Numéro de carte :</label>
+                        <input placeholder="numéro de carte" id="nulero_de_carte" name="numero_de_carte"></li>
+                    <li> <label for="security">Code de sécurité :</label>
+                        <input placeholder="code SCV" id="security" name="security"></li>
+                    <li> <label for="nom_titulaire">Nom du titulaire :</label>
+                        <input placeholder="nom du porteur de la carte" id="nom_titulaire" name="nom_titulaire"></li>
+                </ol>
+            </fieldset>
+        </div>
+
+    </form>
+    <fieldset>
+        <button type=submit>J'achète !</button>
+    </fieldset>
+    </form>
+<hr></hr>
+    </body>
+
+</html>
